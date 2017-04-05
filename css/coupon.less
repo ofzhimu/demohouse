@@ -1,0 +1,152 @@
+@fontsize:37.5px;
+
+//头部顶栏 Begin
+.header {
+  background: #f4483e;
+  height: 44rem/@fontsize;
+  width: 375rem/@fontsize;
+  position: relative;
+  >.back{
+    height: 15rem/@fontsize;
+    width: 15rem/@fontsize;
+    border-left: 2rem/@fontsize solid white;
+    border-bottom:2rem/@fontsize solid white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 14rem/@fontsize;
+    left: 20rem/@fontsize;
+  }
+  >h1{
+    font-size: 20rem/@fontsize;
+    color: white;
+    position: absolute;
+    top: 8rem/@fontsize;
+    left: 158rem/@fontsize;
+  }
+  >.home{
+    width: 34rem/@fontsize;
+    height: 34rem/@fontsize;
+    background:url("../images/header_app.png") no-repeat;
+    background-size:100%;
+    position: absolute;
+    top: 5rem/@fontsize;
+    right: 5rem/@fontsize;
+  }
+}
+//头部顶栏 End
+
+
+//商品ajax请求数据 Begin
+.brand{
+  height: 210rem/@fontsize;
+  width: 375rem/@fontsize;
+  >ul{
+    padding-top: 10rem/@fontsize;
+    padding-bottom: 10rem/@fontsize;
+    >li{
+      float: left;
+      border: 1px solid #EEEEEE;
+      margin: 6rem/@fontsize 0 0 4rem/@fontsize;
+      >a{
+        display: inline-block;
+        width: 117rem/@fontsize;
+        height: 74rem/@fontsize;
+        position: relative;
+        >img{
+          width: 50rem/@fontsize;
+          height: 50rem/@fontsize;
+          display: block;
+          position: absolute;
+          left: 50%;
+          margin-left:-25rem/@fontsize;
+          margin-top: 5rem/@fontsize;
+        }
+        >h2{
+          font-size: 12rem/@fontsize;
+          position: absolute;
+          bottom: 1rem/@fontsize;
+          left: 37rem/@fontsize;
+        }
+      }
+    }
+  }
+}
+//商品ajax请求数据 End
+
+
+//路径 Begin
+.coupon-title{
+  width: 375rem/@fontsize;
+  height: 35rem/@fontsize;
+  background-image:linear-gradient(white, #EEEEEE);
+  border: 1px solid #CCCCCC;
+  padding-left: 8rem/@fontsize;
+  margin-bottom: 25rem/@fontsize;
+
+  >a,span{
+    height: 100%;
+    float: left;
+    display: inline-block;
+    font-size: 15rem/@fontsize;
+    line-height: 35rem/@fontsize;
+  }
+}
+//路径 End
+
+
+//nav 导航 Begin
+.nav{
+  width: 375rem/@fontsize;
+  height: 34rem/@fontsize;
+  background: #EFEFEF;
+  border: 1px solid #C4C4C4;
+  >.loading{
+    border: 1px solid #C4C4C4;
+  }
+  >div{
+    height: 100%;
+    float: left;
+    >a{
+      float: left;
+      font-size: 15rem/@fontsize;
+      line-height: 34rem/@fontsize;
+      padding: 0 42rem/@fontsize;
+      >.photo-top{
+        display: inline-block;
+        width: 15rem/@fontsize;
+        height: 15rem/@fontsize;
+        background: url("../images/1123.png") no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+  .return-top{
+    >a{
+      padding: 0 34rem/@fontsize;
+    }
+  }
+}
+//nav 导航 End
+
+
+//footer Begin
+.footer{
+  width: 375rem/@fontsize;
+  height: 55rem/@fontsize;
+  background: #EFEFEF;
+  padding-top: 13rem/@fontsize;
+  >p{
+    font-size: 13rem/@fontsize;
+    text-align: center;
+    >.word-1{
+      color: red;
+    }
+    >.word-3,{
+      color: #878787;
+    }
+  }
+  >.word-4{
+    color: #878787;
+  }
+}
+//footer End

@@ -1,0 +1,60 @@
+/*重置一些浏览器的一些默认样式*/
+/*所有的标签和伪类*/
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    /*在移动端特殊的设置*/
+    /*清除点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    /*设置盒子的宽度以边框开始计算*/
+    -webkit-box-sizing: border-box;/*要兼容老的移动浏览器*/
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font-family:"Microsoft YaHei","sans-serif";
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #333;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    /*特殊的属性定义清除浏览器给input自带的样式*/
+    -webkit-appearance: none;/*组件默认的样式为空*/
+}
+
+/*comon css公用的css*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    line-height:0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.m_r10{
+    margin-right: 0.133333rem;
+}
+.m_l10{
+    margin-left:0.133333rem;
+}
+/*重置样式 end*/
+
+
+

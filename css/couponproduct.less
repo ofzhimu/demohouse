@@ -1,0 +1,127 @@
+@fontsize:37.5px;
+
+//头部顶栏 Begin
+.header {
+  background: #f4483e;
+  height: 44rem/@fontsize;
+  width: 375rem/@fontsize;
+  position: relative;
+  >.back{
+    height: 15rem/@fontsize;
+    width: 15rem/@fontsize;
+    border-left: 2rem/@fontsize solid white;
+    border-bottom:2rem/@fontsize solid white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 14rem/@fontsize;
+    left: 20rem/@fontsize;
+    >a{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  >h1{
+    font-size: 20rem/@fontsize;
+    color: white;
+    position: absolute;
+    top: 8rem/@fontsize;
+    left: 120rem/@fontsize;
+  }
+  >.home{
+    width: 34rem/@fontsize;
+    height: 34rem/@fontsize;
+    background:url("../images/header_app.png") no-repeat;
+    background-size:100%;
+    position: absolute;
+    top: 5rem/@fontsize;
+    right: 5rem/@fontsize;
+  }
+}
+//头部顶栏 End
+
+//tips Begin
+.tips{
+  text-align: center;
+  padding: 7rem/@fontsize 0;
+  margin-bottom: 12rem/@fontsize;
+  >p{
+    font-size: 12rem/@fontsize;
+    color: #999999;
+  }
+}
+//tips End
+
+//product Begin
+.content{
+  >.product{
+    height: 158rem/@fontsize;
+    width: 375rem/@fontsize;
+    padding: 0 8rem/@fontsize;
+    padding-top: 8rem/@fontsize;
+    position: relative;
+    border-bottom: 1px solid #A5A5A5;
+    >img{
+      float: left;
+      display: block;
+      width: 100rem/@fontsize;
+      height: 80rem/@fontsize;
+
+    }
+    >.product-right{
+      margin-left: 10rem/@fontsize;
+      width: 230rem/@fontsize;
+      float: left;
+      >.product-words{
+        font-size: 13rem/@fontsize;
+        color: black;
+      }
+      >.product-price{
+        font-size: 13rem/@fontsize;
+        font-weight:600;
+        color: #5A5A5F;
+        margin-top: 12rem/@fontsize;
+      }
+      >.product-time{
+        font-size: 14rem/@fontsize;
+        color: #EE7700;
+        margin-top: 22rem/@fontsize;
+      }
+      >a{
+        display: block;
+        width: 10rem/@fontsize;
+        height: 18rem/@fontsize;
+        background: url("../images/icon_bar.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 45rem/@fontsize;
+        right: 10rem/@fontsize;
+      }
+    }
+  }
+
+}
+//product End
+
+
+//footer Begin
+.footer{
+  width: 375rem/@fontsize;
+  height: 55rem/@fontsize;
+  background: #EFEFEF;
+  padding-top: 13rem/@fontsize;
+  >p{
+    font-size: 13rem/@fontsize;
+    text-align: center;
+    >.word-1{
+      color: red;
+    }
+    >.word-3,{
+      color: #878787;
+    }
+  }
+  >.word-4{
+    color: #878787;
+  }
+}
+//footer End

@@ -1,0 +1,109 @@
+.header {
+  background: #f4483e;
+  height: 1.17333333rem;
+  width: 10rem;
+  position: relative;
+}
+.header > .back {
+  height: 0.4rem;
+  width: 0.4rem;
+  border-left: 0.05333333rem solid white;
+  border-bottom: 0.05333333rem solid white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0.37333333rem;
+  left: 0.53333333rem;
+}
+.header > .back > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header > h1 {
+  font-size: 0.53333333rem;
+  color: white;
+  position: absolute;
+  top: 0.21333333rem;
+  left: 3.2rem;
+}
+.header > .home {
+  width: 0.90666667rem;
+  height: 0.90666667rem;
+  background: url("../images/header_app.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0.13333333rem;
+  right: 0.13333333rem;
+}
+.tips {
+  text-align: center;
+  padding: 0.18666667rem 0;
+  margin-bottom: 0.32rem;
+}
+.tips > p {
+  font-size: 0.32rem;
+  color: #999999;
+}
+.content > .product {
+  height: 4.21333333rem;
+  width: 10rem;
+  padding: 0 0.21333333rem;
+  padding-top: 0.21333333rem;
+  position: relative;
+  border-bottom: 1px solid #A5A5A5;
+}
+.content > .product > img {
+  float: left;
+  display: block;
+  width: 2.66666667rem;
+  height: 2.13333333rem;
+}
+.content > .product > .product-right {
+  margin-left: 0.26666667rem;
+  width: 6.13333333rem;
+  float: left;
+}
+.content > .product > .product-right > .product-words {
+  font-size: 0.34666667rem;
+  color: black;
+}
+.content > .product > .product-right > .product-price {
+  font-size: 0.34666667rem;
+  font-weight: 600;
+  color: #5A5A5F;
+  margin-top: 0.32rem;
+}
+.content > .product > .product-right > .product-time {
+  font-size: 0.37333333rem;
+  color: #EE7700;
+  margin-top: 0.58666667rem;
+}
+.content > .product > .product-right > a {
+  display: block;
+  width: 0.26666667rem;
+  height: 0.48rem;
+  background: url("../images/icon_bar.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 1.2rem;
+  right: 0.26666667rem;
+}
+.footer {
+  width: 10rem;
+  height: 1.46666667rem;
+  background: #EFEFEF;
+  padding-top: 0.34666667rem;
+}
+.footer > p {
+  font-size: 0.34666667rem;
+  text-align: center;
+}
+.footer > p > .word-1 {
+  color: red;
+}
+.footer > p > .word-3 {
+  color: #878787;
+}
+.footer > .word-4 {
+  color: #878787;
+}

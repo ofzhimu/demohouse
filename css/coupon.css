@@ -1,0 +1,130 @@
+.header {
+  background: #f4483e;
+  height: 1.17333333rem;
+  width: 10rem;
+  position: relative;
+}
+.header > .back {
+  height: 0.4rem;
+  width: 0.4rem;
+  border-left: 0.05333333rem solid white;
+  border-bottom: 0.05333333rem solid white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0.37333333rem;
+  left: 0.53333333rem;
+}
+.header > h1 {
+  font-size: 0.53333333rem;
+  color: white;
+  position: absolute;
+  top: 0.21333333rem;
+  left: 4.21333333rem;
+}
+.header > .home {
+  width: 0.90666667rem;
+  height: 0.90666667rem;
+  background: url("../images/header_app.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0.13333333rem;
+  right: 0.13333333rem;
+}
+.brand {
+  height: 5.6rem;
+  width: 10rem;
+}
+.brand > ul {
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.26666667rem;
+}
+.brand > ul > li {
+  float: left;
+  border: 1px solid #EEEEEE;
+  margin: 0.16rem 0 0 0.10666667rem;
+}
+.brand > ul > li > a {
+  display: inline-block;
+  width: 3.12rem;
+  height: 1.97333333rem;
+  position: relative;
+}
+.brand > ul > li > a > img {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.66666667rem;
+  margin-top: 0.13333333rem;
+}
+.brand > ul > li > a > h2 {
+  font-size: 0.32rem;
+  position: absolute;
+  bottom: 0.02666667rem;
+  left: 0.98666667rem;
+}
+.coupon-title {
+  width: 10rem;
+  height: 0.93333333rem;
+  background-image: linear-gradient(white, #EEEEEE);
+  border: 1px solid #CCCCCC;
+  padding-left: 0.21333333rem;
+  margin-bottom: 0.66666667rem;
+}
+.coupon-title > a,
+.coupon-title span {
+  height: 100%;
+  float: left;
+  display: inline-block;
+  font-size: 0.4rem;
+  line-height: 0.93333333rem;
+}
+.nav {
+  width: 10rem;
+  height: 0.90666667rem;
+  background: #EFEFEF;
+  border: 1px solid #C4C4C4;
+}
+.nav > .loading {
+  border: 1px solid #C4C4C4;
+}
+.nav > div {
+  height: 100%;
+  float: left;
+}
+.nav > div > a {
+  float: left;
+  font-size: 0.4rem;
+  line-height: 0.90666667rem;
+  padding: 0 1.12rem;
+}
+.nav > div > a > .photo-top {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url("../images/1123.png") no-repeat;
+  background-size: 100%;
+}
+.nav .return-top > a {
+  padding: 0 0.90666667rem;
+}
+.footer {
+  width: 10rem;
+  height: 1.46666667rem;
+  background: #EFEFEF;
+  padding-top: 0.34666667rem;
+}
+.footer > p {
+  font-size: 0.34666667rem;
+  text-align: center;
+}
+.footer > p > .word-1 {
+  color: red;
+}
+.footer > p > .word-3 {
+  color: #878787;
+}
+.footer > .word-4 {
+  color: #878787;
+}
